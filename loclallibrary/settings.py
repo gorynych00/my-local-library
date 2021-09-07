@@ -28,13 +28,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-l25g59c=_$q81@
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = [
-   '*',
-   'http://the-yogify.herokuapp.com/',
-   'https://the-yogify.herokuapp.com/',
-   'the-yogify.herokuapp.com',
-   'the-yogify.herokuapp.com/',
-   '127.0.0.1',
-   'https://fast-cliffs-60091.herokuapp.com'
+   'https://fast-cliffs-60091.herokuapp.com',
+   '127.0.0.1'
 ]
 
 
