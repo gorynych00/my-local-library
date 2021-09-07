@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-l25g59c=_$q81@
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = [
-   'https://fast-cliffs-60091.herokuapp.com',
+   'fast-cliffs-60091.herokuapp.com',
    '127.0.0.1'
 ]
 
