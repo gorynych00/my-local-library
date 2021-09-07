@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
    'the-yogify.herokuapp.com',
    'the-yogify.herokuapp.com/',
    '127.0.0.1',
+   'https://fast-cliffs-60091.herokuapp.com'
 ]
 
 
